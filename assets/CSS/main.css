@@ -1,0 +1,136 @@
+/* Fix gallery container */
+.row-Gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping! */
+    justify-content: center;
+    padding: 0 4px;
+    margin: 0 auto;
+  }
+  
+  /* Make columns stack or wrap responsively */
+  .column-Gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex: 1 1 250px; This lets them wrap and keeps nice size */
+    max-width: 100%;
+    padding: 0 4px;
+  }
+  
+  /* Responsive image handling */
+  .column-Gallery img {
+    width: 100%; /* Makes them fit container */
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+    vertical-align: middle;
+    opacity: 0.5;
+    border: 1px solid #000000;
+    transition: border-radius 0.6s ease 2s, transform 0.6s ease 2s;
+  }
+  
+  /* Hover effect */
+  .column-Gallery img:hover,
+  .column-Gallery img:focus {
+    opacity: 1;
+    border-radius: 10%;
+    transform: rotate(360deg);
+  }
+  
+  /* Captions */
+  div a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  figure figcaption {
+    text-align: center;
+  }
+  
+
+  .GoogleCalendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 4px;
+    width: -webkit-fill-available;
+
+  }
+
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px 16px;
+    z-index: 2000; /* higher than the navbar */
+    text-decoration: none;
+    transition: top 0.3s;
+  }
+  
+  .skip-link:focus {
+    top: 10px;
+  }
+
+  
+  /* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex: 100%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 100%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #0400FF !important;
+  font-size: 1.3em;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #000000 !important;
+}
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-link.active {
+  color: #000000 !important;
+}
+
+.btn{
+  color: #00535C !important;
+}
+
+footer a {
+  color: #00d0ff !important;
+}
+
+footer p:last-child {
+  color: #60ff70 !important;
+}
