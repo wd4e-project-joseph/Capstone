@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pixels & Pencils</title>
+  <!-- icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+  <!-- css  -->
+  <link rel="stylesheet" href="assets/CSS/main.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  
+  <!-- lightbox -->
+  <link rel="stylesheet" href="assets/dist/css/lightbox.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+
+
+    <!-- Header with Navbar inside -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+      <div class="container">
+        <a class="navbar-brand " href="/">
+          <img src="assets/images/favicon_io/Logo.png" alt="Pixels & Pencils logo" width="40" height="32">
+          Pixels & Pencils
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Centered Nav Links -->
+        <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNav">
+          <ul class="navbar-nav bg-light" >
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Primary Ed.</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Design in Pixels
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Carousel.html">Carousel</a>
+                <a class="dropdown-item" href="Gallery.html">Gallery</a>
+                <a class="dropdown-item" href="GoogleCalendar.html">Google Calendar</a>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Code in Motion</a></li>
+            <li class="nav-item"><a class="nav-link" href="#AboutMe">About</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+  
+  
+
+  <header class="hero-section d-flex align-items-center justify-content-center text-dark">
+    <div class="container text-center">
+      <h1 class="display-4">Pixels & Pencils</h1>
+      <p class="lead">A creative portfolio by Joseph <br> where teaching meets code</p>
+    </div>
+  </header>
+
+    <div class="row">
+    
+    <div class="main">
+      <section class="container py-5" id="learning-journey">
+        <h2 class="text-center mb-5">📘 My Learning Journey</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          
+          <div class="col mb-4">
+            <div class="card h-100 shadow-sm border-primary">
+              <div class="card-body">
+                <h5 class="card-title">🧠 Python (Coursera)</h5>
+                <p class="card-text">Started my journey with <strong>Programming for Everybody</strong> — an introductory Python course that sparked my interest in coding.</p>
+              </div>
+              <div class="card-footer text-muted">Completed ✔️</div>
+            </div>
+          </div>
+      
+          <div class="col mb-4">
+            <div class="card h-100 shadow-sm border-success">
+              <div class="card-body">
+                <h5 class="card-title">🎨 Web Design for Everybody</h5>
+                <p class="card-text">Learned HTML, CSS, and accessibility practices. Currently building this portfolio as part of the course project.</p>
+              </div>
+              <div class="card-footer text-muted">In Progress ⏳</div>
+            </div>
+          </div>
+      
+          <div class="col">
+            <div class="card h-100 shadow-sm border-info">
+              <div class="card-body">
+                <h5 class="card-title">🔧 Bootstrap Practice</h5>
+                <p class="card-text">Explored Bootstrap components like carousels, navbars, and modals. Added them to this site as hands-on practice.</p>
+              </div>
+              <div class="card-footer text-muted">Exploring 🛠️</div>
+            </div>
+          </div>
+      
+          <div class="col">
+            <div class="card h-100 shadow-sm border-warning">
+              <div class="card-body">
+                <h5 class="card-title">🚀 Meta Front-End Course</h5>
+                <p class="card-text">Planning to dive deeper into front-end development with Meta’s specialization on Coursera. Excited for what's next!</p>
+              </div>
+              <div class="card-footer text-muted">Coming Soon 🔜</div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      
+      <br>
+      <section class="container py-5" id="experiments">
+        <h2 class="text-center mb-5">🧪 My Experiments & Mini Projects</h2>
+      
+        <div class="row g-4">
+      
+          <div id="projectCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              
+              <div class="carousel-item active">
+                <img src="assets/images/benjamin-voros-phIFdC6lA4E-unsplash.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/marek-piwnicki-NLiKKKr3IbU-unsplash.jpg" class="d-block w-100" alt="">
+              </div>
+            </div>
+          
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          
+      
+          <!-- Google Calendar Embed -->
+          <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <iframe src="https://calendar.google.com/calendar/embed?src=your_calendar_link_here" style="border: 0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">📅 Embedded Google Calendar</h5>
+                <p class="card-text">Used for class planning and events — embedded using iframe.</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Lightbox Gallery -->
+          <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">🖼️ Lightbox Gallery</h5>
+                <p class="card-text">Click images to view them in a lightbox popup — great for teaching visuals!</p>
+                <a href="assets/images/Gallery/aaron-burden-5AiWn2U10cw-unsplash.jpg" data-lightbox="gallery"><img src="assets/images/Gallery/aaron-burden-5AiWn2U10cw-unsplash.jpg" class="img-fluid rounded me-2" width="100"></a>
+                <a href="assets/images/Gallery/aaron-wilson-qIHtrP2V3C8-unsplash.jpg" data-lightbox="gallery"><img src="assets/images/Gallery/aaron-wilson-qIHtrP2V3C8-unsplash.jpg" class="img-fluid rounded" width="100"></a>
+                <a href="assets/images/Gallery/eugene-krasnaok-6B42uAzfu-I-unsplash.jpg" data-lightbox="gallery"><img src="assets/images/Gallery/eugene-krasnaok-6B42uAzfu-I-unsplash.jpg" class="img-fluid rounded me-2" width="100"></a>
+                <a href="assets/images/Gallery/jcob-nasyr-egjefQiN0WI-unsplash.jpg" data-lightbox="gallery"><img src="assets/images/Gallery/jcob-nasyr-egjefQiN0WI-unsplash.jpg" class="img-fluid rounded" width="100"></a>
+              </div>
+              <div class="card-footer">Practicing Lightbox Plugin</div>
+            </div>
+          </div>
+      
+          <!-- JavaScript Interaction -->
+          <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">⚡ JavaScript Button</h5>
+                <p class="card-text">Click the button to see a little greeting powered by JavaScript!</p>
+                <button onclick="alert('Hello from Joseph! 👋')" class="btn btn-outline-primary">Say Hi!</button>
+              </div>
+              <div class="card-footer">Practicing JavaScript DOM</div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      
+  </div>
+
+  <div class="side">
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h2 id="AboutMe" class="card-title">About Me</h2>
+              <h5 class="card-subtitle mb-3">Photo of me:</h5>
+              
+              <div class="bg-secondary text-white d-flex align-items-center justify-content-center mb-3 rounded" style="height: 200px;">
+                Image
+              </div>
+    
+              <p class="card-text">
+                Hello! I'm Joseph — a passionate Grade 1 teacher with a growing love for programming and web design.
+                While my roots are in elementary education, I've recently taken a leap into the world of tech to explore
+                my creative side and challenge myself in new ways. <br><br>
+    
+                What started with a Python course called <strong>Programming for Everybody</strong> on Coursera quickly
+                turned into a deeper journey into <strong>Web Design for Everybody</strong>. I found myself fascinated by
+                the way code can bring ideas to life — from structuring pages with HTML to styling them with CSS. <br><br>
+    
+                I’m still early in my learning journey, but I'm eager to keep going — to dig deeper into the concepts that
+                excite me and eventually explore more advanced topics through courses like Meta’s front-end specialization.
+                This portfolio is a reflection of that journey — where education and creativity meet code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+      <!-- <div class="card shadow-sm mb-3">
+        <div class="card-body">
+          <h3 class="card-title">More Text</h3>
+          <p class="card-text">Lorem ipsum dolor sit ame.</p>
+          <div class="bg-secondary text-white d-flex align-items-center justify-content-center mb-2" style="height: 60px;">Image</div>
+          <div class="bg-secondary text-white d-flex align-items-center justify-content-center mb-2" style="height: 60px;">Image</div>
+          <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="height: 60px;">Image</div>
+        </div>
+      </div>
+    </div> -->
+    
+  </div>
+
+
+
+
+  
+
+
+
+
+
+  
+  <div class="flex-grow-1">
+    
+    <footer class="bg-dark text-white py-5 mt-auto">
+      <div class="container">
+        <h2 class="text-center mb-4">Let’s Connect</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <p>I'd love to hear from you — whether it's feedback, collaboration, or just saying hi! 😊</p>
+            <p>
+              <a href="mailto:joooossseeeeph@gmail.com" class="text-info">Email Me</a><br>
+              <a href="https://github.com/wd4e-project-joseph" class="text-info" target="_blank">Github</a><br>
+              <!-- <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/joseph" class="text-info" target="_blank">linkedin.com/in/joseph</a> -->
+            </p>
+            <p class="mt-4 mb-0 small text-muted">© 2025 Joseph's Portfolio. Built with 💙 and Bootstrap.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  
+  
+  
+
+ 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Then Bootstrap (uses jQuery) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="assets/dist/js/lightbox-plus-jquery.js" ></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+</body>
+</html>
